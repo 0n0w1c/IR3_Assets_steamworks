@@ -16,7 +16,7 @@ data:extend({
         },
         order = "a[inserter]-a[steam-inserter]",
         place_result = "steam-inserter",
-        stack_size = 100,
+        stack_size = 50,
         subgroup = "inserter",
     }
 })

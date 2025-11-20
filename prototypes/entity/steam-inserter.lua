@@ -1,9 +1,19 @@
+require("inserter-util")
+
 data:extend({
     {
         type = "inserter",
         name = "steam-inserter",
 
-        allow_burner_leech = true,
+        pickup_position = { 0, -1 },
+        extension_speed = 0.1,
+        rotation_speed = 0.04,
+        filter_count = 5,
+
+        circuit_connector = circuit_connector_definitions["steam-inserter"],
+        circuit_wire_max_distance = inserter_circuit_wire_max_distance,
+        default_stack_control_input_signal = inserter_default_stack_control_input_signal,
+
         close_sound = {
             {
                 filename = "__base__/sound/machine-close.ogg",
@@ -60,10 +70,12 @@ data:extend({
                 type = "create-particle"
             }
         },
+        --[[
         default_stack_control_input_signal = {
             name = "signal-S",
             type = "virtual"
         },
+        ]]
         dying_explosion = "steam-inserter-explosion",
         energy_per_movement = "10kJ",
         energy_per_rotation = "10kJ",
@@ -96,7 +108,7 @@ data:extend({
             maximum_temperature = 165,
             type = "fluid"
         },
-        extension_speed = 0.041666666666666661,
+        --extension_speed = 0.041666666666666661,
         fast_replaceable_group = "pipe",
         flags = {
             "placeable-neutral",
@@ -269,7 +281,7 @@ data:extend({
                 volume = 0.5
             }
         },
-        pickup_position = { 0, -1 },
+        --pickup_position = { 0, -1 },
         platform_picture = {
             direction_count = 1,
             filename = "__IndustrialRevolution3Assets3__/graphics/entities/machines/misc/blank.png",
@@ -282,7 +294,7 @@ data:extend({
             x = 0,
             y = 0
         },
-        rotation_speed = 0.016666666666666665,
+        --rotation_speed = 0.016666666666666665,
         selection_box = {
             { -0.5, -0.5 },
             { 0.5,  0.5 }

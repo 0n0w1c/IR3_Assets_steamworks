@@ -23,7 +23,7 @@ data:extend({
         },
         order = "a[inserter]-b[long-handed-steam-inserter]",
         place_result = "long-handed-steam-inserter",
-        stack_size = 100,
+        stack_size = 50,
         subgroup = "inserter",
     }
 })

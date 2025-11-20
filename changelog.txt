@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 20.11.2025
+  Bugfixes:
+    - None
+  Changes:
+    - Steam inserters support circuit connections
+    - Steam inserter extension and rotation speed changes (equal to fast and long-handed)
+---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 19.11.2025
   Bugfixes:
