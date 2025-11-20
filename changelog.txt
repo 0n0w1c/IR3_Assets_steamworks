@@ -1,6 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 19.11.2025
+  Bugfixes:
+    - Steam pump recipe was not unlocked when Steam Power was researched
+  Changes:
+    - Initial release
+---------------------------------------------------------------------------------------------------
 Version: 0.0.1
-Date: 15.11.2025
+Date: 19.11.2025
   Bugfixes:
     - None
   Changes:

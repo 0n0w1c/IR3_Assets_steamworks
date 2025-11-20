@@ -174,7 +174,7 @@ require("prototypes/explosion/steam-pump")
 require("prototypes/entity/steam-pump")
 require("prototypes/item/steam-pump")
 require("prototypes/recipe/steam-pump")
-table.insert(technology.effects, { type = "unlock-recipe", recipe = "steam-pipe" })
+table.insert(technology.effects, { type = "unlock-recipe", recipe = "steam-pump" })
 
 require("prototypes/explosion/steam-barrelling-machine")
 require("prototypes/entity/steam-barrelling-machine")
