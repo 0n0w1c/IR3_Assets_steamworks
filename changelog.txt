@@ -1,10 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 21.11.2025
+  Bugfixes:
+    - None
+  Changes:
+    - Added new technology: Steam automation
+    - Decreased the research times from 60 to 30 seconds for steambots and scatterbots
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 20.11.2025
   Bugfixes:
     - None
   Changes:
-    - Steam inserters support circuit connections
+    - Steam inserters support circuit conditions
     - Steam inserter extension and rotation speed changes (equal to fast and long-handed)
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2

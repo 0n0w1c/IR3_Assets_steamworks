@@ -1,6 +1,6 @@
 {
     "name": "IR3_Assets_steamworks",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "title": "IR3 Assets: steamworks",
     "author": "0n0w1c",
     "description": "Adds steamworks using IR3 graphical assets, if installed.\nRequires the manual installation of the Industrial Revolution 3 Asset Packs.",

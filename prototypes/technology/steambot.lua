@@ -23,14 +23,14 @@ data:extend({
         },
 
         order = "a",
-        prerequisites = { "automation" },
+        prerequisites = { "steam-automation" },
 
         unit = {
             count = 20,
             ingredients = {
                 { "automation-science-pack", 1 }
             },
-            time = 60
+            time = 30
         },
 
         upgrade = false
