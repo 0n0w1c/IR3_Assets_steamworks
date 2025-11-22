@@ -103,14 +103,7 @@ data:extend({
         },
         icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-lab.png",
         icon_size = 64,
-        inputs = {
-            "automation-science-pack", "logistic-science-pack",
-            "military-science-pack", "chemical-science-pack",
-            "production-science-pack", "utility-science-pack", "space-science-pack",
-            "metallurgic-science-pack", "agricultural-science-pack",
-            "electromagnetic-science-pack", "cryogenic-science-pack",
-            "promethium-science-pack"
-        },
+        inputs = {},
         allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
         module_slots = 2,
         icons_positioning = {
