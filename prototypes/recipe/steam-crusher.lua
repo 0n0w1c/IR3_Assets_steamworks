@@ -6,7 +6,7 @@ data:extend({
             {
                 type = "item",
                 name = "large-copper-frame",
-                amount = 20,
+                amount = 1,
             },
             {
                 type = "item",
