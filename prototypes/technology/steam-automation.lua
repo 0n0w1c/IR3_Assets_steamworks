@@ -6,7 +6,7 @@ data:extend({
         effects = {
             { type = "unlock-recipe", recipe = "wood-beam" },
             { type = "unlock-recipe", recipe = "copper-plated-beam" },
-            { type = "unlock-recipe", recipe = "copper-gear" },
+            { type = "unlock-recipe", recipe = "copper-gear-wheel" },
             { type = "unlock-recipe", recipe = "copper-rod" },
             { type = "unlock-recipe", recipe = "copper-rivet" },
             { type = "unlock-recipe", recipe = "copper-piston" },
@@ -36,6 +36,7 @@ data:extend({
             { type = "unlock-recipe", recipe = "small-steam-assembling-machine" },
             { type = "unlock-recipe", recipe = "steam-crusher" },
             { type = "unlock-recipe", recipe = "steam-lab" },
+            { type = "unlock-recipe", recipe = "monowheel" },
         },
 
         icons = {

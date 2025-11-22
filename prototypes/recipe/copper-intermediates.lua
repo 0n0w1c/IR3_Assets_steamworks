@@ -48,7 +48,7 @@ data:extend({
         enabled = false,
     },
     {
-        name = "copper-gear",
+        name = "copper-gear-wheel",
         type = "recipe",
         ingredients = {
             {
@@ -60,7 +60,7 @@ data:extend({
         results = {
             {
                 type = "item",
-                name = "copper-gear",
+                name = "copper-gear-wheel",
                 amount = 1,
             },
         },

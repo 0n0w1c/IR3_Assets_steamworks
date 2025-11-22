@@ -10,7 +10,7 @@ data:extend({
             },
             {
                 type = "item",
-                name = "copper-gear",
+                name = "copper-gear-wheel",
                 amount = 4,
             },
             {

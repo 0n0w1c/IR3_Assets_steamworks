@@ -8,9 +8,9 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { type = "item", name = "copper-rod",     amount = 1 },
-            { type = "item", name = "copper-gear",    amount = 1 },
-            { type = "item", name = "steam-inserter", amount = 1 }
+            { type = "item", name = "copper-rod",        amount = 1 },
+            { type = "item", name = "copper-gear-wheel", amount = 1 },
+            { type = "item", name = "steam-inserter",    amount = 1 }
         },
         results = {
             {

@@ -233,4 +233,9 @@ require("prototypes/entity/steam-lab")
 require("prototypes/item/steam-lab")
 require("prototypes/recipe/steam-lab")
 
+require("prototypes/explosion/monowheel")
+require("prototypes/entity/monowheel")
+require("prototypes/item/monowheel")
+require("prototypes/recipe/monowheel")
+
 require("prototypes/technology/steam-automation")

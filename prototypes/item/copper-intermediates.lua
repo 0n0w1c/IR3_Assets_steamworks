@@ -33,7 +33,7 @@ data:extend({
     },
     {
         type = "item",
-        name = "copper-gear",
+        name = "copper-gear-wheel",
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-gear-wheel.png",
@@ -41,7 +41,7 @@ data:extend({
             }
         },
         subgroup = "steamworks-intermediates",
-        order = "r[copper-pipe]-c[copper-plate]",
+        order = "r[copper-pipe]-c[copper-gear-wheel]",
         stack_size = 50,
     },
     {
