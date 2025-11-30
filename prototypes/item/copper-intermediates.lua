@@ -1,9 +1,3 @@
-local items = data.raw["item"]
-local item = {}
-
-item = items["copper-plate"]
-item.icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-plate.png"
-
 data:extend({
     {
         type = "item",

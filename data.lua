@@ -8,6 +8,28 @@ end
 
 require("constants")
 
+data.raw["item"]["copper-plate"].icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-plate.png"
+
+if mods["crushing-industry"] then
+    local recipe = data.raw["recipe"]["crushed-copper-smelting"]
+
+    if recipe then
+        recipe.icons = {
+            { icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-crushed.png", shift = { -12, -12 },  scale = 0.4 },
+            { icon = data.raw["item"]["copper-plate"].icon,                                   draw_background = true } }
+    end
+end
+
+if not mods["crushing-industries"] then
+    data:extend({
+        {
+            type = "recipe-category",
+            name = "basic-crushing",
+            order = "a",
+        },
+    })
+end
+
 data:extend({
     {
         type = "fuel-category",
@@ -59,16 +81,6 @@ data:extend({
         order = "a",
     },
 })
-
-if not mods["crushing-industries"] then
-    data:extend({
-        {
-            type = "recipe-category",
-            name = "basic-crushing",
-            order = "a",
-        },
-    })
-end
 
 data:extend({
     {

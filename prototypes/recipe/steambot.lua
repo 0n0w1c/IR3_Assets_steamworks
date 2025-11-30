@@ -3,7 +3,6 @@ data:extend({
         type = "recipe",
         name = "steambot",
 
-        auto_recycle = false,
         allow_decomposition = false,
         always_show_made_in = true,
         always_show_products = true,

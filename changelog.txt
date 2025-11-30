@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 30.11.2025
+  Bugfixes:
+    - Enabled recycling recipe for steambots
+  Changes:
+    - Updates the crushed copper smelting recipe icon
+    - Changed optional mod from crushing-industry to IR3_Assets_crushing_industry
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 22.11.2025
   Bugfixes:
