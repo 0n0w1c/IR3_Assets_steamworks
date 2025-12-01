@@ -3,6 +3,7 @@ data:extend({
         type = "explosion",
         name = "monowheel-explosion",
 
+        hidden_in_factoriopedia = true,
         animations = {
             {
                 animation_speed = 0.5,

@@ -46,15 +46,9 @@ data:extend({
             }
         },
 
-        order = "a",
-        prerequisites = { "automation-science-pack" },
-
-        unit = {
-            count = 10,
-            ingredients = {
-                { "automation-science-pack", 1 }
-            },
-            time = 15
+        research_trigger = {
+            type   = "mine-entity",
+            entity = "copper-ore",
         },
 
         upgrade = false
