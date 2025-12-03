@@ -18,7 +18,7 @@ data:extend({
             {
                 type = "item",
                 name = "copper-pipe-to-ground-short",
-                amount = 1,
+                amount = 2,
             },
         },
         enabled = false,
