@@ -91,10 +91,8 @@ data:extend({
                     {
                         action_delivery = {
                             source_effects = {
-                                --{ --distant misfires errors if a table
                                 entity_name = "explosion-gunshot",
                                 type = "create-explosion"
-                                --}
                             },
                             type = "instant"
                         },
