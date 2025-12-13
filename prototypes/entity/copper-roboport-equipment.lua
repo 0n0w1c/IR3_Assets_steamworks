@@ -20,7 +20,7 @@ data:extend({
 
         power = "20kW",
 
-        categories = { "armor" },
+        categories = { "armor", "monowheel" },
         charge_approach_distance = 2.6,
         charging_distance = 1.6,
         charging_energy = "600kW",
