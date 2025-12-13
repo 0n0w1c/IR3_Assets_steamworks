@@ -13,5 +13,6 @@ data:extend({
         place_result = "steam-pipe",
         stack_size = 100,
         subgroup = "steamworks-steam",
+        weight = 5000
     }
 })

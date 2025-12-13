@@ -13,5 +13,6 @@ data:extend({
         place_result = "copper-aetheric-lamp-end",
         stack_size = 100,
         subgroup = "circuit-network",
+        weight = 10000
     }
 })

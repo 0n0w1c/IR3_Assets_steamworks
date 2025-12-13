@@ -9,5 +9,6 @@ data:extend({
         order = "b[fluid]-a[empty-cell]",
         stack_size = 50,
         subgroup = "storage",
+        weight = 10000
     }
 })

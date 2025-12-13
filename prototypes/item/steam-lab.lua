@@ -10,7 +10,8 @@ data:extend({
         },
         order = "z[a-steam-lab]",
         place_result = "steam-lab",
-        stack_size = 50,
+        stack_size = 10,
+        weight = 100000,
         subgroup = "production-machine",
     }
 })

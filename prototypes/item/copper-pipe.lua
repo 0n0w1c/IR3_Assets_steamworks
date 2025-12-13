@@ -13,5 +13,6 @@ data:extend({
         order = "a[copper-pipe]-a[copper-pipe]",
         place_result = "copper-pipe",
         stack_size = 100,
+        weight = 5000
     }
 })

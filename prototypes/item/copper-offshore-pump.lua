@@ -12,6 +12,7 @@ data:extend({
         subgroup = "extraction-machine",
         order = "b[fluids]-a[copper-offshore-pump]",
         place_result = "copper-offshore-pump",
-        stack_size = 50,
+        stack_size = 20,
+        weight = 50000
     }
 })

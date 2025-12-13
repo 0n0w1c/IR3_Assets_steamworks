@@ -11,5 +11,6 @@ data:extend({
         order = "a",
         subgroup = "steamworks-steam",
         stack_size = 50,
+        weight = 10000
     }
 })

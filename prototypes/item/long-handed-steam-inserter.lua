@@ -25,5 +25,6 @@ data:extend({
         place_result = "long-handed-steam-inserter",
         stack_size = 50,
         subgroup = "inserter",
+        weight = 20000
     }
 })

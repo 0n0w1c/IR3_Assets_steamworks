@@ -13,5 +13,6 @@ data:extend({
         order = "d[steam-pipe]-f[steam-barrelling-machine]",
         place_result = "steam-barrelling-machine",
         stack_size = 50,
+        weight = 20000
     }
 })

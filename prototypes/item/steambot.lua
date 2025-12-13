@@ -11,7 +11,8 @@ data:extend({
         },
         order = "a[bot]-a[steambot]",
         place_result = "steambot",
-        stack_size = 100,
+        stack_size = 50,
         subgroup = "logistic-network",
+        weight = 20000
     }
 })

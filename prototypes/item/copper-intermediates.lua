@@ -11,6 +11,7 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-a[wood-beam]",
         stack_size = 50,
+        weight = 10000
     },
     {
         type = "item",
@@ -24,6 +25,7 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-b[copper-plated-beam]",
         stack_size = 50,
+        weight = 10000
     },
     {
         type = "item",
@@ -36,20 +38,8 @@ data:extend({
         },
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-c[copper-gear-wheel]",
-        stack_size = 50,
-    },
-    {
-        type = "item",
-        name = "copper-rod",
-        icons = {
-            {
-                icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-rod.png",
-                icon_size = 64
-            }
-        },
-        subgroup = "steamworks-intermediates",
-        order = "r[copper-pipe]-d[copper-rod]",
-        stack_size = 50,
+        stack_size = 100,
+        weight = 10000
     },
     {
         type = "item",
@@ -61,8 +51,23 @@ data:extend({
             }
         },
         subgroup = "steamworks-intermediates",
-        order = "r[copper-pipe]-e[copper-rivet]",
-        stack_size = 50,
+        order = "r[copper-pipe]-d[copper-rivet]",
+        stack_size = 100,
+        weight = 10000
+    },
+    {
+        type = "item",
+        name = "copper-rod",
+        icons = {
+            {
+                icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-rod.png",
+                icon_size = 64
+            }
+        },
+        subgroup = "steamworks-intermediates",
+        order = "r[copper-pipe]-e[copper-rod]",
+        stack_size = 100,
+        weight = 10000
     },
     {
         type = "item",
@@ -76,6 +81,7 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-f[copper-piston]",
         stack_size = 50,
+        weight = 20000
     },
     {
         type = "item",
@@ -89,6 +95,7 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-g[small-copper-frame]",
         stack_size = 50,
+        weight = 20000
     },
     {
         type = "item",
@@ -102,5 +109,6 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-h[large-copper-frame]",
         stack_size = 50,
+        weight = 20000
     },
 })

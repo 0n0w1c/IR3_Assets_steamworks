@@ -13,5 +13,6 @@ data:extend({
         stack_size = 100,
         subgroup = "steamworks-copper",
         order = "a[copper-pipe]-e[copper-pump]",
+        weight = 10000
     }
 })

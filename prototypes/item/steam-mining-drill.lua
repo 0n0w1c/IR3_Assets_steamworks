@@ -18,6 +18,7 @@ data:extend({
         order = "a[items]-a[steam-mining-drill]",
         place_result = "steam-mining-drill",
         stack_size = 50,
+        weight = 20000,
         subgroup = "extraction-machine",
     }
 })

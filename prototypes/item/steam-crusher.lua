@@ -11,6 +11,7 @@ data:extend({
         order = "a[items]-c[steam-crusher]",
         place_result = "steam-crusher",
         stack_size = 50,
+        weight = 20000,
         subgroup = "extraction-machine",
     }
 })

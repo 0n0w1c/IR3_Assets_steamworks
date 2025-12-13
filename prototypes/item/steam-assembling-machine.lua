@@ -12,5 +12,6 @@ data:extend({
         place_result = "steam-assembling-machine",
         stack_size = 50,
         subgroup = "production-machine",
+        weight = 20000
     }
 })

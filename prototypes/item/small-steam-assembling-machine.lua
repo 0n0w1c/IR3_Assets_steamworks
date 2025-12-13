@@ -10,7 +10,8 @@ data:extend({
         },
         order = "a[a-assembling-machine-steam]z",
         place_result = "small-steam-assembling-machine",
-        stack_size = 100,
+        stack_size = 50,
         subgroup = "production-machine",
+        weight = 20000
     }
 })

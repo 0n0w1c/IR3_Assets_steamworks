@@ -13,5 +13,6 @@ data:extend({
         place_result = "small-storage-tank-steam",
         stack_size = 50,
         subgroup = "storage",
+        weight = 10000
     }
 })

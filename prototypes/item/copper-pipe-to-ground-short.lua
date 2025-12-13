@@ -12,6 +12,7 @@ data:extend({
         subgroup = "steamworks-copper",
         order = "a[copper-pipe]-b[copper-pipe-to-ground-short]",
         place_result = "copper-pipe-to-ground-short",
-        stack_size = 100,
+        stack_size = 50,
+        weight = 20000
     }
 })

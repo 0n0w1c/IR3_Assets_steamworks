@@ -9,6 +9,7 @@ data:extend({
         place_as_equipment_result = "copper-roboport-equipment",
         stack_size = 10,
         subgroup = "utility-equipment",
+        weight = 100000,
         inventory_move_sound = {
             filename = "__base__/sound/item/roboport-inventory-move.ogg",
             volume = 0.45,

@@ -12,6 +12,7 @@ data:extend({
         order = "ab",
         place_result = "monowheel",
         stack_size = 1,
+        weight = 1000000,
         subgroup = "transport",
     }
 })

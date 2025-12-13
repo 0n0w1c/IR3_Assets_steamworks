@@ -31,5 +31,6 @@ data:extend({
         order = "a[a-grenade]-a[scatterbot]",
         stack_size = 50,
         subgroup = "capsule",
+        weight = 20000
     }
 })
