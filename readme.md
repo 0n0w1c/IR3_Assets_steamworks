@@ -14,4 +14,6 @@ See the mod [IR3 Assets: Some assembly required](https://mods.factorio.com/mod/I
 
 If the IR3 Assets are not installed, this mod will do nothing.
 
+*While driving the monowheel: [R] to snap direction, [Crtl]+[R] when stuck*
+
 This mod does **not** include IR3 or the assets.  

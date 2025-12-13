@@ -16,7 +16,7 @@ data:extend({
             {
                 type = "item",
                 name = "copper-gear-wheel",
-                amount = 20,
+                amount = 10,
             },
         },
         results = {
