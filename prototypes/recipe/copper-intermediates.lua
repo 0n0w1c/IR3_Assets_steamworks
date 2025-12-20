@@ -99,7 +99,7 @@ data:extend({
             {
                 type = "item",
                 name = "copper-rivet",
-                amount = 1,
+                amount = 2,
             },
         },
         enabled = false,
