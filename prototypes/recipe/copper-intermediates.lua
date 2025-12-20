@@ -156,6 +156,7 @@ data:extend({
             },
         },
         enabled = false,
+        energy_required = 2.5
     },
     {
         name = "large-copper-frame",
@@ -164,12 +165,12 @@ data:extend({
             {
                 type = "item",
                 name = "copper-plate",
-                amount = 24,
+                amount = 12,
             },
             {
                 type = "item",
                 name = "copper-plated-beam",
-                amount = 12,
+                amount = 8,
             },
             {
                 type = "item",
@@ -185,5 +186,6 @@ data:extend({
             },
         },
         enabled = false,
+        energy_required = 2.5
     },
 })

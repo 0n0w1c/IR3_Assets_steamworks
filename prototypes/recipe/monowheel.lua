@@ -6,7 +6,7 @@ data:extend({
         always_show_products = true,
         category = "crafting",
         enabled = false,
-        energy_required = 4,
+        energy_required = 2,
         ingredients = {
             { type = "item", name = "large-copper-frame",         amount = 1 },
             { type = "item", name = "copper-piston",              amount = 8 },

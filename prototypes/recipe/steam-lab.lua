@@ -32,5 +32,6 @@ data:extend({
             },
         },
         enabled = false,
+        energy_required = 2
     }
 })

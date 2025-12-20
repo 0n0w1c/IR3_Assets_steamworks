@@ -11,7 +11,6 @@ data:extend({
             tertiary = { a = 1, b = 1, g = 1, r = 1 }
         },
         enabled = false,
-        energy_required = 1,
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steambot.png",

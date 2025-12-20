@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 20.12.2025
+  Bugfixes:
+    - None
+  Changes:
+    - More adjustments to stack size and crafting times
+    - Decreased ingredient amounts for the large copper frame
+---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 13.12.2025
   Bugfixes:

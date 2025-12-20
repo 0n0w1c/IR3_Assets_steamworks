@@ -6,7 +6,6 @@ data:extend({
         always_show_products = true,
         category = "crafting",
         enabled = false,
-        energy_required = 1,
         ingredients = {
             { type = "item", name = "steam-pipe",   amount = 1 },
             { type = "item", name = "copper-rivet", amount = 2 },
