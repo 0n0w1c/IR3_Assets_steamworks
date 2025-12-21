@@ -2,7 +2,7 @@
 Version: 0.1.11
 Date: 21.12.2025
   Bugfixes:
-    - Increased the steam mining drill search radius from 5 to 7
+    - Increased the steam mining drill search area from 5x5 to 7x7
   Changes:
     - None
 ---------------------------------------------------------------------------------------------------
