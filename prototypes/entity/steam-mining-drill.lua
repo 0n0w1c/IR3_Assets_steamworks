@@ -430,7 +430,7 @@ data:extend({
         },
 
         resource_categories          = { "basic-solid" },
-        resource_searching_radius    = 2.49,
+        resource_searching_radius    = 3.49,
 
         selection_box                = {
             { -2.5, -2.5 },
