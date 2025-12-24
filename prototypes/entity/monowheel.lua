@@ -192,8 +192,8 @@ data:extend({
         },
         light = {
             {
-                color = { r = 0.92, g = 0.77, b = 0.3, a = 1 },
-                intensity = 0.75,
+                color = { r = 1, g = 1, b = 0.8 },
+                intensity = 0.8,
                 minimum_darkness = 0.3,
                 picture = {
                     filename = "__core__/graphics/light-cone.png",
@@ -208,8 +208,8 @@ data:extend({
                 type = "oriented"
             },
             {
-                color = { r = 0.92, g = 0.77, b = 0.3, a = 1 },
-                intensity = 0.75,
+                color = { r = 1, g = 1, b = 0.8 },
+                intensity = 0.8,
                 minimum_darkness = 0.3,
                 picture = {
                     filename = "__core__/graphics/light-cone.png",
