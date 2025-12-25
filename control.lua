@@ -1,3 +1,16 @@
+local ir3_asset_packs = {
+    "IndustrialRevolution3Assets1",
+    "IndustrialRevolution3Assets2",
+    "IndustrialRevolution3Assets3",
+    "IndustrialRevolution3Assets4"
+}
+
+for _, asset_pack in ipairs(ir3_asset_packs) do
+    if not script.active_mods[asset_pack] then
+        return
+    end
+end
+
 script.on_event(defines.events.on_entity_damaged, function(event)
     local cause = event.cause
     local damage_type = event.damage_type
