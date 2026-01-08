@@ -4,7 +4,7 @@ data:extend({
     {
         type = "custom-input",
         name = "rotate-vehicle",
-        key_sequence = "R",
+        key_sequence = "SPACE",
         consuming = "none"
     }
 })
@@ -13,8 +13,8 @@ data:extend({
     {
         type = "custom-input",
         name = "teleport-vehicle",
-        key_sequence = "SHIFT + R",
-        consuming = "game-only"
+        key_sequence = "BACKSPACE",
+        consuming = "none"
     }
 })
 

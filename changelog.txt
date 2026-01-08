@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.14
+Date: 07.01.2025
+  Bugfixes:
+    - Added localized string for snap and teleport monowheel
+  Changes:
+    - Default keybind for snap and teleport monowheel changed to Space and Backspace
+---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 24.12.2025
   Bugfixes:
