@@ -1,3 +1,5 @@
+local item_sounds = require("__base__/prototypes/item_sounds")
+
 data:extend({
     {
         type = "item",
@@ -11,7 +13,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-a[wood-beam]",
         stack_size = 100,
-        weight = 10 * kg
+        weight = 10 * kg,
+        inventory_move_sound = item_sounds.wood_inventory_move,
+        pick_sound = item_sounds.wood_inventory_pickup,
+        drop_sound = item_sounds.wood_inventory_move,
     },
     {
         type = "item",
@@ -25,7 +30,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-b[copper-plated-beam]",
         stack_size = 100,
-        weight = 10 * kg
+        weight = 10 * kg,
+        inventory_move_sound = item_sounds.wood_inventory_move,
+        pick_sound = item_sounds.wood_inventory_pickup,
+        drop_sound = item_sounds.wood_inventory_move,
     },
     {
         type = "item",
@@ -39,7 +47,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-c[copper-gear-wheel]",
         stack_size = 100,
-        weight = 10 * kg
+        weight = 10 * kg,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move,
     },
     {
         type = "item",
@@ -53,7 +64,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-d[copper-rivet]",
         stack_size = 100,
-        weight = 10 * kg
+        weight = 10 * kg,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move,
     },
     {
         type = "item",
@@ -67,7 +81,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-e[copper-rod]",
         stack_size = 100,
-        weight = 10 * kg
+        weight = 10 * kg,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move,
     },
     {
         type = "item",
@@ -81,7 +98,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-f[copper-piston]",
         stack_size = 50,
-        weight = 20 * kg
+        weight = 20 * kg,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move,
     },
     {
         type = "item",
@@ -95,7 +115,10 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-g[small-copper-frame]",
         stack_size = 50,
-        weight = 20 * kg
+        weight = 20 * kg,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move,
     },
     {
         type = "item",
@@ -109,6 +132,9 @@ data:extend({
         subgroup = "steamworks-intermediates",
         order = "r[copper-pipe]-h[large-copper-frame]",
         stack_size = 50,
-        weight = 20 * kg
+        weight = 20 * kg,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move,
     },
 })

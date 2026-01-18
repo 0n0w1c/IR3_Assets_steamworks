@@ -1,3 +1,5 @@
+local item_sounds = require("__base__/prototypes/item_sounds")
+
 data:extend({
     {
         type = "item",
@@ -13,6 +15,9 @@ data:extend({
         order = "a[copper-pipe]-a[copper-pipe]",
         place_result = "copper-pipe",
         stack_size = 100,
-        weight = 5000
+        weight = 5000,
+        inventory_move_sound = item_sounds.metal_small_inventory_move,
+        pick_sound = item_sounds.metal_small_inventory_pickup,
+        drop_sound = item_sounds.metal_small_inventory_move
     }
 })

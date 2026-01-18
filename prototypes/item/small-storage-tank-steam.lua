@@ -1,3 +1,5 @@
+local item_sounds = require("__base__/prototypes/item_sounds")
+
 data:extend({
     {
         type = "item",
@@ -13,6 +15,9 @@ data:extend({
         place_result = "small-storage-tank-steam",
         stack_size = 50,
         subgroup = "storage",
-        weight = 10000
+        weight = 10000,
+        inventory_move_sound = item_sounds.steam_inventory_move,
+        pick_sound = item_sounds.steam_inventory_pickup,
+        drop_sound = item_sounds.steam_inventory_move
     }
 })
