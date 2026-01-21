@@ -273,7 +273,7 @@ data:extend({
 
         fluid_boxes = {
             {
-                volume = 500,
+                volume = 200,
                 production_type = "output",
                 pipe_covers = PIPE_COVERS_STEAM,
                 pipe_connections = {

@@ -42,7 +42,7 @@ entity.damaged_trigger_effect    = {
 }
 
 entity.fluid_box                 = {
-    volume = 100,
+    volume = 200,
     pipe_covers = PIPE_COVERS_COPPER,
     production_type = "output",
     pipe_connections = {

@@ -310,7 +310,7 @@ data:extend({
             "player-creation"
         },
         fluid_box                 = {
-            volume = 100,
+            volume = 200,
             filter = "water",
             production_type = "input",
             pipe_covers = PIPE_COVERS_COPPER,
@@ -337,7 +337,7 @@ data:extend({
             volume = 0.5
         },
         output_fluid_box          = {
-            volume = 100,
+            volume = 200,
             filter = "steam",
             production_type = "output",
             pipe_covers = PIPE_COVERS_STEAM,

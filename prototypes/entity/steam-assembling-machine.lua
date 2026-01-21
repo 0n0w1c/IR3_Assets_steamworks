@@ -243,7 +243,7 @@ entity.fluid_boxes                          = {
         production_type = "input",
         pipe_picture = PIPE_PICTURES_COPPER,
         pipe_covers = PIPE_COVERS_IRON,
-        volume = 1000,
+        volume = 200,
         pipe_connections = {
             {
                 flow_direction = "input",
@@ -259,7 +259,7 @@ entity.fluid_boxes                          = {
         production_type = "output",
         pipe_picture = PIPE_PICTURES_COPPER,
         pipe_covers = PIPE_COVERS_IRON,
-        volume = 1000,
+        volume = 200,
         pipe_connections = {
             {
                 flow_direction = "output",
