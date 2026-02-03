@@ -14,7 +14,7 @@ data:extend({
         weight = 100000,
         inventory_move_sound = {
             filename = "__base__/sound/item/roboport-inventory-move.ogg",
-            volume = 0.45,
+            volume = 0.5,
             aggregation = {
                 max_count = 1,
                 remove = true,
@@ -22,7 +22,7 @@ data:extend({
         },
         pick_sound = {
             filename = "__base__/sound/item/roboport-inventory-pickup.ogg",
-            volume = 0.35,
+            volume = 0.5,
             aggregation = {
                 max_count = 1,
                 remove = true,
@@ -30,7 +30,7 @@ data:extend({
         },
         drop_sound = {
             filename = "__base__/sound/item/roboport-inventory-move.ogg",
-            volume = 0.45,
+            volume = 0.5,
             aggregation = {
                 max_count = 1,
                 remove = true,

@@ -475,7 +475,7 @@ data:extend({
             sound = {
                 {
                     filename = "__base__/sound/burner-mining-drill-1.ogg",
-                    volume = 0.6,
+                    volume = 0.5,
                     modifiers = {
                         type = "tips-and-tricks",
                         volume_multiplier = 0.8,
@@ -483,7 +483,7 @@ data:extend({
                 },
                 {
                     filename = "__base__/sound/burner-mining-drill-2.ogg",
-                    volume = 0.6,
+                    volume = 0.5,
                     modifiers = {
                         type = "tips-and-tricks",
                         volume_multiplier = 0.8,

@@ -183,7 +183,7 @@ data:extend({
             fade_out_ticks = 30,
             sound = {
                 filename = "__IndustrialRevolution3Assets1__/sound/small-machine-1.ogg",
-                volume = 0.4
+                volume = 0.5
             }
         }
     }

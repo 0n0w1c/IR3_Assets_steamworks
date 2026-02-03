@@ -391,7 +391,7 @@ data:extend({
             fade_out_ticks = 10,
             sound = {
                 filename = "__base__/sound/boiler.ogg",
-                volume = 0.7
+                volume = 0.5
             }
         }
     }

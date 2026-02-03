@@ -130,11 +130,11 @@ data:extend({
             variations = {
                 {
                     filename = "__base__/sound/fight/large-explosion-1.ogg",
-                    volume = 1
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/fight/large-explosion-2.ogg",
-                    volume = 1
+                    volume = 0.5
                 }
             }
         }

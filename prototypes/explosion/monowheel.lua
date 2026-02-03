@@ -113,23 +113,23 @@ data:extend({
             variations = {
                 {
                     filename = "__base__/sound/fight/medium-explosion-1.ogg",
-                    volume = 0.4
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/fight/medium-explosion-2.ogg",
-                    volume = 0.4
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/fight/medium-explosion-3.ogg",
-                    volume = 0.4
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/fight/medium-explosion-4.ogg",
-                    volume = 0.4
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/fight/medium-explosion-5.ogg",
-                    volume = 0.4
+                    volume = 0.5
                 }
             }
         }

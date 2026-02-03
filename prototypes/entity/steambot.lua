@@ -16,15 +16,15 @@ data:extend({
                 sound = {
                     {
                         filename = "__base__/sound/fight/robot-die-impact-1.ogg",
-                        volume = 1
+                        volume = 0.5
                     },
                     {
                         filename = "__base__/sound/fight/robot-die-impact-2.ogg",
-                        volume = 1
+                        volume = 0.5
                     },
                     {
                         filename = "__base__/sound/fight/robot-die-impact-3.ogg",
-                        volume = 1
+                        volume = 0.5
                     }
                 },
                 type = "play-sound"
@@ -272,17 +272,17 @@ data:extend({
         },
 
         repairing_sound = {
-            { filename = "__base__/sound/robot-repair-1.ogg", volume = 0.6 },
-            { filename = "__base__/sound/robot-repair-2.ogg", volume = 0.6 },
-            { filename = "__base__/sound/robot-repair-3.ogg", volume = 0.6 },
-            { filename = "__base__/sound/robot-repair-4.ogg", volume = 0.6 },
-            { filename = "__base__/sound/robot-repair-5.ogg", volume = 0.6 },
-            { filename = "__base__/sound/robot-repair-6.ogg", volume = 0.6 }
+            { filename = "__base__/sound/robot-repair-1.ogg", volume = 0.5 },
+            { filename = "__base__/sound/robot-repair-2.ogg", volume = 0.5 },
+            { filename = "__base__/sound/robot-repair-3.ogg", volume = 0.5 },
+            { filename = "__base__/sound/robot-repair-4.ogg", volume = 0.5 },
+            { filename = "__base__/sound/robot-repair-5.ogg", volume = 0.5 },
+            { filename = "__base__/sound/robot-repair-6.ogg", volume = 0.5 }
         },
 
         working_sound = {
             sound = {
-                { filename = "__IndustrialRevolution3Assets1__/sound/ticktock.ogg", volume = 0.333 }
+                { filename = "__IndustrialRevolution3Assets1__/sound/ticktock.ogg", volume = 0.5 }
             },
             max_sounds_per_type = 3,
             fade_in_ticks = 10,

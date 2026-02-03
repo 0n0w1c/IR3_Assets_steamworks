@@ -2,7 +2,7 @@ data:extend({
     {
         type = "explosion",
         name = "steam-crusher-explosion",
-        
+
         hidden_in_factoriopedia = true,
         animations = {
             {
@@ -84,23 +84,23 @@ data:extend({
             variations = {
                 {
                     filename = "__base__/sound/small-explosion-1.ogg",
-                    volume = 1
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/small-explosion-2.ogg",
-                    volume = 1
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/small-explosion-3.ogg",
-                    volume = 1
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/small-explosion-4.ogg",
-                    volume = 1
+                    volume = 0.5
                 },
                 {
                     filename = "__base__/sound/small-explosion-5.ogg",
-                    volume = 1
+                    volume = 0.5
                 }
             }
         }

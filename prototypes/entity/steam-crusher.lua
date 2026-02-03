@@ -254,7 +254,7 @@ data:extend({
             fade_out_ticks = 30,
             sound = {
                 filename = "__IndustrialRevolution3Assets1__/sound/grinder.ogg",
-                volume = 0.75
+                volume = 0.5
             }
         }
     }

@@ -16,15 +16,15 @@ data:extend({
                 sound = {
                     {
                         filename = "__base__/sound/fight/robot-die-impact-1.ogg",
-                        volume = 1
+                        volume = 0.5
                     },
                     {
                         filename = "__base__/sound/fight/robot-die-impact-2.ogg",
-                        volume = 1
+                        volume = 0.5
                     },
                     {
                         filename = "__base__/sound/fight/robot-die-impact-3.ogg",
-                        volume = 1
+                        volume = 0.5
                     }
                 },
                 type = "play-sound"

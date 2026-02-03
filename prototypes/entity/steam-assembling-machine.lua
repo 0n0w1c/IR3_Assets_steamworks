@@ -234,7 +234,7 @@ entity.working_sound                        = {
     fade_out_ticks = 30,
     sound = {
         filename = "__IndustrialRevolution3Assets1__/sound/rhythmic.ogg",
-        volume = 0.5
+        volume = 0.3
     }
 }
 

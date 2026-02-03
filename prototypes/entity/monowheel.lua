@@ -43,7 +43,7 @@ data:extend({
         icon_size = 64,
         flags = { "placeable-neutral", "player-creation", "placeable-off-grid", "not-flammable" },
         minable = { mining_time = 0.3, result = "monowheel" },
-        mined_sound = { filename = "__core__/sound/deconstruct-large.ogg", volume = 0.7 },
+        mined_sound = { filename = "__core__/sound/deconstruct-large.ogg", volume = 0.5 },
         corpse = "medium-small-remnants",
         dying_explosion = "monowheel-explosion",
         render_layer = "object",
@@ -495,16 +495,16 @@ data:extend({
         {
             {
                 filename = "__base__/sound/fight/car-no-fuel-1.ogg",
-                volume = 0.4
+                volume = 0.5
             }
         },
         sound_minimum_speed = 0.2,
         sound_scaling_ratio = 0.8,
         working_sound =
         {
-            sound = { filename = "__base__/sound/car-engine.ogg", volume = 0.7 },
-            activate_sound = { filename = "__base__/sound/car-engine-start.ogg", volume = 0.7 },
-            deactivate_sound = { filename = "__base__/sound/car-engine-stop.ogg", volume = 0.7 },
+            sound = { filename = "__base__/sound/car-engine.ogg", volume = 0.5 },
+            activate_sound = { filename = "__base__/sound/car-engine-start.ogg", volume = 0.5 },
+            deactivate_sound = { filename = "__base__/sound/car-engine-stop.ogg", volume = 0.5 },
             match_speed_to_activity = true,
         },
         crash_trigger =
@@ -512,7 +512,7 @@ data:extend({
             type = "play-sound",
             sound = {
                 filename = "__base__/sound/car-crash.ogg",
-                volume = 0
+                volume = 0.5
             }
         },
         stop_trigger_speed = 0.1,
@@ -523,7 +523,7 @@ data:extend({
                 sound = {
                     {
                         filename = "__base__/sound/car-breaks.ogg",
-                        volume = 0.3
+                        volume = 0.5
                     }
                 }
             }
