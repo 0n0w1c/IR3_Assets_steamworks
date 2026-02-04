@@ -1,4 +1,21 @@
-local entity                     = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
+local entity = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
+
+if mods["offshore-burner"] then
+    entity = table.deepcopy(data.raw["offshore-pump"]["burner-offshore-pump"])
+    entity.energy_source.smoke = {
+        {
+            name                     = "smoke",
+            deviation                = { 0.1, 0.1 },
+            frequency                = 16,
+            north_position           = { 0, -0.6 },
+            south_position           = { 0, -0.2 },
+            east_position            = { 0.4, -0.6 },
+            west_position            = { -0.4, -0.6 },
+            starting_vertical_speed  = 0,
+            starting_frame_deviation = 60,
+        }
+    }
+end
 
 entity.name                      = "copper-offshore-pump"
 entity.icon                      = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-pump.png"
