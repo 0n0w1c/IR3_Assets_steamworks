@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 04.02.2026
+  Bugfixes:
+    - Enhanced Offshore Pumps: copper offshore pump energy_source no longer emits light
+  Changes:
+    - None
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 04.02.2026
   Bugfixes:

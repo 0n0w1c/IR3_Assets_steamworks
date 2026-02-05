@@ -2,7 +2,7 @@ local entity = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 
 if mods["offshore-burner"] then
     entity = table.deepcopy(data.raw["offshore-pump"]["burner-offshore-pump"])
-    entity.energy_source.light_flicker = nil
+    entity.energy_source.light_flicker = { color = { 0, 0, 0 } }
     entity.energy_source.smoke = {
         {
             name                     = "smoke",
