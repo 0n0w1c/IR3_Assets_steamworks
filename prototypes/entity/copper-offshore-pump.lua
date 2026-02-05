@@ -2,6 +2,7 @@ local entity = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 
 if mods["offshore-burner"] then
     entity = table.deepcopy(data.raw["offshore-pump"]["burner-offshore-pump"])
+    entity.energy_source.light_flicker = nil
     entity.energy_source.smoke = {
         {
             name                     = "smoke",
@@ -65,7 +66,7 @@ entity.fluid_box                 = {
     pipe_connections = {
         {
             position = { 0, 0 },
-            direction = 8,
+            direction = defines.direction.south,
             flow_direction = "output",
             connection_category = "water",
         }

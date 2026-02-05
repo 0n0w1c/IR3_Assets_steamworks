@@ -1,5 +1,10 @@
 local item_sounds = require("__base__/prototypes/item_sounds")
 
+local subgroup = "extraction-machine"
+if mods["offshore-burner"] then
+    subgroup = "steamworks-copper"
+end
+
 data:extend({
     {
         type = "item",
@@ -11,7 +16,7 @@ data:extend({
                 icon_size = 64
             }
         },
-        subgroup = "extraction-machine",
+        subgroup = subgroup,
         order = "b[fluids]-a[copper-offshore-pump]",
         place_result = "copper-offshore-pump",
         stack_size = 20,

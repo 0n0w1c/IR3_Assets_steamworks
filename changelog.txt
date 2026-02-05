@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 04.02.2026
+  Bugfixes:
+    - Enhanced Offshore Pumps: Removed light flicker from the copper offshore pump
+  Changes:
+    - Enhanced Offshore Pumps: Modified item subgroup for the copper offshore pump
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 03.02.2026
   Bugfixes:
