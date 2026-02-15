@@ -18,6 +18,23 @@ if mods["offshore-burner"] then
     }
 end
 
+if mods["offshore_pump_require_power"] then
+    entity.energy_source.light_flicker = { color = { 0, 0, 0 } }
+    entity.energy_source.smoke = {
+        {
+            name                     = "smoke",
+            deviation                = { 0.1, 0.1 },
+            frequency                = 16,
+            north_position           = { 0, -0.6 },
+            south_position           = { 0, -0.2 },
+            east_position            = { 0.4, -0.6 },
+            west_position            = { -0.4, -0.6 },
+            starting_vertical_speed  = 0,
+            starting_frame_deviation = 60,
+        }
+    }
+end
+
 entity.name                      = "copper-offshore-pump"
 entity.icon                      = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-pump.png"
 entity.minable                   = { mining_time = 0.5, result = "copper-offshore-pump" }

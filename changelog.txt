@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 15.02.2026
+  Bugfixes:
+    - None
+  Changes:
+    - Added support for Offshore Pump Require Power
+---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 04.02.2026
   Bugfixes:
@@ -18,7 +25,7 @@ Date: 03.02.2026
   Bugfixes:
     - None
   Changes:
-    - Added support for Enhanced Offshore Pumps (copper offshore pump will require fuel)
+    - Added support for Enhanced Offshore Pumps
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.17
 Date: 03.02.2026
