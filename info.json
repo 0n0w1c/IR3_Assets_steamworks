@@ -1,6 +1,6 @@
 {
     "name": "IR3_Assets_steamworks",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "title": "IR3 Assets: steamworks",
     "author": "0n0w1c",
     "description": "Adds steamworks using IR3 graphical assets, if installed.\nRequires the manual installation of the Industrial Revolution 3 Asset Packs.",
@@ -10,6 +10,7 @@
         "IR3_Assets_some_assembly_required >= 0.1.2",
         "? IR3_Assets_crushing_industry",
         "? offshore-burner",
-        "? offshore_pump_require_power"
+        "? offshore_pump_require_power",
+        "~ zzz-nonstandard-beacons >= 1.3.1"
     ]
 }
