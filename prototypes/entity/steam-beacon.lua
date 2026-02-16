@@ -74,6 +74,7 @@ data:extend({
 
         energy_usage                   = "480kW",
         energy_source                  = {
+            type                 = "fluid",
             fluid_box            = {
                 volume = 200,
                 filter = "steam",
@@ -164,8 +165,7 @@ data:extend({
                     starting_vertical_speed_deviation = 0.02,
                     west_position = { 0.5375, 0.25 }
                 }
-            },
-            type                 = "fluid"
+            }
         },
 
         effect_receiver                = {
