@@ -1,15 +1,15 @@
 data:extend({
     {
-        name                           = "steam-beacon",
-        type                           = "beacon",
-        icon                           = "__IR3_Assets_steamworks__/graphics/icons/steam-beacon.png",
-        flags                          = { "placeable-player", "player-creation" },
-        minable                        = { mining_time = 0.5, result = "steam-beacon" },
-        collision_box                  = { { -1.2, -1.2 }, { 1.2, 1.2 } },
-        selection_box                  = { { -1.5, -1.5 }, { 1.5, 1.5 } },
-        drawing_box_vertical_extension = 0.7,
-        allowed_effects                = { "consumption", "speed", "pollution" },
-        graphics_set                   = {
+        name                                             = "steam-beacon",
+        type                                             = "beacon",
+        icon                                             = "__IR3_Assets_steamworks__/graphics/icons/steam-beacon.png",
+        flags                                            = { "placeable-player", "player-creation" },
+        minable                                          = { mining_time = 0.5, result = "steam-beacon" },
+        collision_box                                    = { { -1.2, -1.2 }, { 1.2, 1.2 } },
+        selection_box                                    = { { -1.5, -1.5 }, { 1.5, 1.5 } },
+        allowed_effects                                  = { "consumption", "speed", "pollution" },
+        drawing_box_vertical_extension                   = 1,
+        graphics_set                                     = {
             module_icons_suppressed = false,
 
             animation_list = {
@@ -72,8 +72,8 @@ data:extend({
             },
         },
 
-        energy_usage                   = "480kW",
-        energy_source                  = {
+        energy_usage                                     = "480kW",
+        energy_source                                    = {
             type                 = "fluid",
             fluid_box            = {
                 volume = 200,
@@ -168,20 +168,48 @@ data:extend({
             }
         },
 
-        effect_receiver                = {
+        effect_receiver                                  = {
             uses_beacon_effects = false,
             uses_module_effects = true,
             uses_surface_effects = false
         },
-        radius_visualisation_picture   = {
+        radius_visualisation_picture                     = {
             filename = "__base__/graphics/entity/beacon/beacon-radius-visualization.png",
             priority = "extra-high-no-scale",
             width = 10,
             height = 10
         },
-        supply_area_distance           = 3,
-        distribution_effectivity       = 1.5,
-        module_slots                   = 2,
-        icons_positioning              = { { inventory_index = defines.inventory.beacon_modules, shift = { 0, 0 }, multi_row_initial_height_modifier = -0.3, max_icons_per_row = 2 } }
+        supply_area_distance                             = 3,
+        distribution_effectivity                         = 1.5,
+        distribution_effectivity_bonus_per_quality_level = 0.2,
+        module_slots                                     = 2,
+        beacon_counter                                   = "same_type",
+        impact_category                                  = "metal",
+        open_sound                                       = {
+            filename = "__base__/sound/open-close/beacon-open.ogg",
+            volume = 0.25,
+        },
+        close_sound                                      = {
+            filename = "__base__/sound/open-close/beacon-close.ogg",
+            volume = 0.25,
+        },
+        working_sound                                    = {
+            sound = {
+                variations = {
+                    {
+                        filename = "__base__/sound/beacon-1.ogg",
+                        volume = 0.3,
+                    },
+                    {
+                        filename = "__base__/sound/beacon-2.ogg",
+                        volume = 0.3,
+                    },
+                },
+                audible_distance_modifier = 0.33,
+            },
+            max_sounds_per_prototype = 3,
+        },
+
+        icons_positioning                                = { { inventory_index = defines.inventory.beacon_modules, shift = { 0, 0 }, multi_row_initial_height_modifier = -0.3, max_icons_per_row = 2 } }
     }
 })
