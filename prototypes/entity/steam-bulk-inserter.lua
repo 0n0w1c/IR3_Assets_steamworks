@@ -3,26 +3,19 @@ require("inserter-util")
 data:extend({
     {
         type = "inserter",
-        name = "steam-inserter",
+        name = "steam-bulk-inserter",
 
         pickup_position = { 0, -1 },
         extension_speed = 0.1,
         rotation_speed = 0.04,
         filter_count = 5,
         allow_custom_vectors = true,
-        bulk = false,
+        bulk = true,
 
         circuit_connector = circuit_connector_definitions["steam-inserter"],
         circuit_wire_max_distance = inserter_circuit_wire_max_distance,
         default_stack_control_input_signal = inserter_default_stack_control_input_signal,
 
-        close_sound = {
-            {
-                filename = "__base__/sound/machine-close.ogg",
-                preload = true,
-                volume = 0.5
-            }
-        },
         collision_box = {
             { -0.49, -0.49 },
             { 0.49,  0.49 }
@@ -72,9 +65,9 @@ data:extend({
                 type = "create-particle"
             }
         },
-        dying_explosion = "steam-inserter-explosion",
-        energy_per_movement = "10kJ",
-        energy_per_rotation = "10kJ",
+        dying_explosion = "steam-bulk-inserter-explosion",
+        energy_per_movement = "20kJ",
+        energy_per_rotation = "20kJ",
         energy_source = {
             fluid_box = {
                 volume = 200,
@@ -97,13 +90,14 @@ data:extend({
                 pipe_covers = PIPE_COVERS_STEAM,
                 production_type = "input-output"
             },
-            fluid_usage_per_tick = 0.018666666666666698,
+            fluid_usage_per_tick = 0.03733333,
             light_flicker = {
                 color = { r = 0, g = 0, b = 0, a = 0 }
             },
             maximum_temperature = 165,
             type = "fluid"
         },
+        --extension_speed = 0.041666666666666661,
         fast_replaceable_group = "pipe",
         flags = {
             "placeable-neutral",
@@ -113,50 +107,50 @@ data:extend({
             "not-upgradable"
         },
         hand_base_picture = {
-            filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base.png",
-            height = 136,
+            filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-base.png",
             priority = "extra-high",
+            width = 32,
+            height = 136,
             scale = 0.25,
-            width = 32
+        },
+        hand_closed_picture = {
+            filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-closed.png",
+            priority = "extra-high",
+            width = 100,
+            height = 164,
+            scale = 0.25,
+        },
+        hand_open_picture = {
+            filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-open.png",
+            priority = "extra-high",
+            width = 130,
+            height = 164,
+            scale = 0.25,
         },
         hand_base_shadow = {
             filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+            priority = "extra-high",
+            width = 32,
             height = 132,
-            priority = "extra-high",
             scale = 0.25,
-            width = 32
-        },
-        hand_closed_picture = {
-            filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed.png",
-            height = 164,
-            priority = "extra-high",
-            scale = 0.25,
-            width = 72
         },
         hand_closed_shadow = {
-            filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
-            height = 164,
+            filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-closed-shadow.png",
             priority = "extra-high",
-            scale = 0.25,
-            width = 72
-        },
-        hand_open_picture = {
-            filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open.png",
+            width = 100,
             height = 164,
-            priority = "extra-high",
             scale = 0.25,
-            width = 72
         },
         hand_open_shadow = {
-            filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
-            height = 164,
+            filename = "__base__/graphics/entity/bulk-inserter/bulk-inserter-hand-open-shadow.png",
             priority = "extra-high",
+            width = 130,
+            height = 164,
             scale = 0.25,
-            width = 72
         },
         icons = {
             {
-                icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam-inserter.png",
+                icon = "__IR3_Assets_steamworks__/graphics/icons/bulk-steam-inserter.png",
                 icon_size = 64
             },
             {
@@ -266,14 +260,16 @@ data:extend({
         },
         integration_patch_render_layer = "object",
         max_health = 100,
-        minable = { mining_time = 0.1, result = "steam-inserter" },
+        minable = { mining_time = 0.1, result = "steam-bulk-inserter" },
         open_sound = {
-            {
-                filename = "__base__/sound/machine-open.ogg",
-                preload = true,
-                volume = 0.5
-            }
+            filename = "__base__/sound/open-close/inserter-open.ogg",
+            volume = 0.6,
         },
+        close_sound = {
+            filename = "__base__/sound/open-close/inserter-close.ogg",
+            volume = 0.5,
+        },
+        --pickup_position = { 0, -1 },
         platform_picture = {
             direction_count = 1,
             filename = "__IndustrialRevolution3Assets3__/graphics/entities/machines/misc/blank.png",
@@ -286,6 +282,7 @@ data:extend({
             x = 0,
             y = 0
         },
+        --rotation_speed = 0.016666666666666665,
         selection_box = {
             { -0.5, -0.5 },
             { 0.5,  0.5 }
@@ -322,35 +319,82 @@ data:extend({
             }
         },
         working_sound = {
-            audible_distance_modifier = 0.3,
             match_progress_to_activity = true,
             sound = {
-                {
-                    filename = "__base__/sound/inserter-basic-1.ogg",
-                    preload = true,
-                    volume = 0.5
+                variations = {
+                    {
+                        filename = "__base__/sound/inserter-fast-1.ogg",
+                        volume = 0.5,
+                        modifiers = {
+                            {
+                                type = "main-menu",
+                                volume_multiplier = 1.6,
+                            },
+                            {
+                                type = "tips-and-tricks",
+                                volume_multiplier = 2,
+                            },
+                        },
+                    },
+                    {
+                        filename = "__base__/sound/inserter-fast-2.ogg",
+                        volume = 0.5,
+                        modifiers = {
+                            {
+                                type = "main-menu",
+                                volume_multiplier = 1.6,
+                            },
+                            {
+                                type = "tips-and-tricks",
+                                volume_multiplier = 2,
+                            },
+                        },
+                    },
+                    {
+                        filename = "__base__/sound/inserter-fast-3.ogg",
+                        volume = 0.5,
+                        modifiers = {
+                            {
+                                type = "main-menu",
+                                volume_multiplier = 1.6,
+                            },
+                            {
+                                type = "tips-and-tricks",
+                                volume_multiplier = 2,
+                            },
+                        },
+                    },
+                    {
+                        filename = "__base__/sound/inserter-fast-4.ogg",
+                        volume = 0.5,
+                        modifiers = {
+                            {
+                                type = "main-menu",
+                                volume_multiplier = 1.6,
+                            },
+                            {
+                                type = "tips-and-tricks",
+                                volume_multiplier = 2,
+                            },
+                        },
+                    },
+                    {
+                        filename = "__base__/sound/inserter-fast-5.ogg",
+                        volume = 0.5,
+                        modifiers = {
+                            {
+                                type = "main-menu",
+                                volume_multiplier = 1.6,
+                            },
+                            {
+                                type = "tips-and-tricks",
+                                volume_multiplier = 2,
+                            },
+                        },
+                    },
                 },
-                {
-                    filename = "__base__/sound/inserter-basic-2.ogg",
-                    preload = true,
-                    volume = 0.5
-                },
-                {
-                    filename = "__base__/sound/inserter-basic-3.ogg",
-                    preload = true,
-                    volume = 0.5
-                },
-                {
-                    filename = "__base__/sound/inserter-basic-4.ogg",
-                    preload = true,
-                    volume = 0.5
-                },
-                {
-                    filename = "__base__/sound/inserter-basic-5.ogg",
-                    preload = true,
-                    volume = 0.5
-                }
-            }
-        }
+                audible_distance_modifier = 0.3,
+            },
+        },
     }
 })

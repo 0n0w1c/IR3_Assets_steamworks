@@ -225,6 +225,11 @@ require("prototypes/entity/long-handed-steam-inserter")
 require("prototypes/item/long-handed-steam-inserter")
 require("prototypes/recipe/long-handed-steam-inserter")
 
+require("prototypes/explosion/steam-bulk-inserter")
+require("prototypes/entity/steam-bulk-inserter")
+require("prototypes/item/steam-bulk-inserter")
+require("prototypes/recipe/steam-bulk-inserter")
+
 require("prototypes/explosion/steam-assembling-machine")
 require("prototypes/entity/steam-assembling-machine")
 require("prototypes/item/steam-assembling-machine")

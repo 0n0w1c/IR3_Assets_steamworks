@@ -32,6 +32,7 @@ data:extend({
             { type = "unlock-recipe", recipe = "steam-mining-drill" },
             { type = "unlock-recipe", recipe = "steam-inserter" },
             { type = "unlock-recipe", recipe = "long-handed-steam-inserter" },
+            { type = "unlock-recipe", recipe = "steam-bulk-inserter" },
             { type = "unlock-recipe", recipe = "steam-assembling-machine" },
             { type = "unlock-recipe", recipe = "small-steam-assembling-machine" },
             { type = "unlock-recipe", recipe = "steam-crusher" },
