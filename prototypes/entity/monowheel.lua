@@ -42,7 +42,7 @@ data:extend({
         icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/monowheel.png",
         icon_size = 64,
         flags = { "placeable-neutral", "player-creation", "placeable-off-grid", "not-flammable" },
-        minable = { mining_time = 0.3, result = "monowheel" },
+        minable = { mining_time = 0.2, result = "monowheel" },
         mined_sound = { filename = "__core__/sound/deconstruct-large.ogg", volume = 0.5 },
         corpse = "medium-small-remnants",
         dying_explosion = "monowheel-explosion",

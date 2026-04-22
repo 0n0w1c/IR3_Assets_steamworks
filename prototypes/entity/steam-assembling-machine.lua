@@ -4,7 +4,7 @@ entity.name                                 = "steam-assembling-machine"
 
 entity.icon                                 = "__IndustrialRevolution3Assets1__/graphics/icons/64/assembler1.png"
 
-entity.minable                              = { mining_time = 0.5, result = "steam-assembling-machine", count = 1 }
+entity.minable                              = { mining_time = 0.2, result = "steam-assembling-machine", count = 1 }
 
 entity.module_slots                         = 2
 entity.crafting_speed                       = 0.75

@@ -37,7 +37,7 @@ end
 
 entity.name                      = "copper-offshore-pump"
 entity.icon                      = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-pump.png"
-entity.minable                   = { mining_time = 0.5, result = "copper-offshore-pump" }
+entity.minable                   = { mining_time = 0.2, result = "copper-offshore-pump" }
 entity.dying_explosion           = "copper-offshore-pump-explosion"
 entity.fast_replaceable_group    = "copper-pipe"
 

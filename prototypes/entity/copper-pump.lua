@@ -1,7 +1,7 @@
 local entity                                     = table.deepcopy(data.raw["pump"]["pump"])
 
 entity.name                                      = "copper-pump"
-entity.minable                                   = { mining_time = 0.5, result = "copper-pump" }
+entity.minable                                   = { mining_time = 0.2, result = "copper-pump" }
 entity.placeable_by                              = { item = "copper-pump", count = 1 }
 entity.dying_explosion                           = "copper-pump-explosion"
 

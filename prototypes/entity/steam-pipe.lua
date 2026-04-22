@@ -2,7 +2,7 @@ local entity                          = table.deepcopy(data.raw["pipe"]["pipe"])
 
 entity.name                           = "steam-pipe"
 entity.icon                           = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam-pipe.png"
-entity.minable                        = { mining_time = 0.5, result = "steam-pipe" }
+entity.minable                        = { mining_time = 0.1, result = "steam-pipe" }
 
 entity.dying_explosion                = "steam-pipe-explosion"
 

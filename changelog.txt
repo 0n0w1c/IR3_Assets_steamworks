@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 21.04.2026
+  Bugfixes:
+    - None
+  Changes:
+    - Reduced entity mining times
+    - Automation science pack research changed to require crafting a steam lab
+    - Added a 4x4 equipment grid to heavy-armor
+---------------------------------------------------------------------------------------------------
 Version: 0.5.0
 Date: 17.02.2026
   Bugfixes:

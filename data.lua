@@ -109,6 +109,16 @@ data:extend({
     }
 })
 
+data:extend({
+    {
+        type = "equipment-grid",
+        name = "heavy-armor-grid",
+        width = 4,
+        height = 4,
+        equipment_categories = { "armor" }
+    }
+})
+
 require("prototypes/item/copper-intermediates")
 require("prototypes/recipe/copper-intermediates")
 

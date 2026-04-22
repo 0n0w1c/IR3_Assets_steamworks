@@ -72,7 +72,7 @@ data:extend({
         icon_mipmaps              = 4,
         icon_size                 = 64,
         max_health                = 100,
-        minable                   = { mining_time = 0.5, result = "small-storage-tank-steam" },
+        minable                   = { mining_time = 0.2, result = "small-storage-tank-steam" },
         pictures                  = {
             flow_sprite = {
                 filename = "__base__/graphics/entity/pipe/fluid-flow-low-temperature.png",

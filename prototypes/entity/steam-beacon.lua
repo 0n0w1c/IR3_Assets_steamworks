@@ -4,7 +4,7 @@ data:extend({
         type                                             = "beacon",
         icon                                             = "__IR3_Assets_steamworks__/graphics/icons/steam-beacon.png",
         flags                                            = { "placeable-player", "player-creation" },
-        minable                                          = { mining_time = 0.5, result = "steam-beacon" },
+        minable                                          = { mining_time = 0.2, result = "steam-beacon" },
         collision_box                                    = { { -1.2, -1.2 }, { 1.2, 1.2 } },
         selection_box                                    = { { -1.5, -1.5 }, { 1.5, 1.5 } },
         allowed_effects                                  = { "consumption", "speed", "pollution" },
