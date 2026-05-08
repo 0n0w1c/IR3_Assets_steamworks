@@ -63,8 +63,8 @@ entity.fluid_box                                 = {
     pipe_covers          = PIPE_COVERS_COPPER,
     hide_connection_info = true,
     pipe_connections     = {
-        { direction = 0, position = { 0, 0 }, flow_direction = "output", connection_category = "water" },
-        { direction = 8, position = { 0, 0 }, flow_direction = "input",  connection_category = "water" },
+        { direction = defines.direction.north, position = { 0, 0 }, flow_direction = "output", connection_category = "water" },
+        { direction = defines.direction.south, position = { 0, 0 }, flow_direction = "input",  connection_category = "water" },
     },
     filter               = "water"
 }

@@ -48,13 +48,13 @@ entity.fluid_box.minimum_temperature = 15
 entity.fluid_box.maximum_temperature = 100
 entity.fluid_box.pipe_connections    = {
     {
-        direction = 0,
+        direction = defines.direction.north,
         position = { 0, 0 },
         connection_category = "water"
     },
     {
         connection_type = "underground",
-        direction = 8,
+        direction = defines.direction.south,
         position = { 0, 0 },
         connection_category = "water",
         max_underground_distance = 5,

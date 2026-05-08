@@ -36,22 +36,22 @@ entity.fluid_box.maximum_temperature  = 100
 entity.fluid_box.pipe_covers          = PIPE_COVERS_COPPER
 entity.fluid_box.pipe_connections     = {
     {
-        direction = 0,
+        direction = defines.direction.north,
         position = { 0, 0 },
         connection_category = "water",
     },
     {
-        direction = 4,
+        direction = defines.direction.east,
         position = { 0, 0 },
         connection_category = "water",
     },
     {
-        direction = 8,
+        direction = defines.direction.south,
         position = { 0, 0 },
         connection_category = "water",
     },
     {
-        direction = 12,
+        direction = defines.direction.west,
         position = { 0, 0 },
         connection_category = "water",
     },

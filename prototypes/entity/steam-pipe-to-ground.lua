@@ -47,13 +47,13 @@ entity.fluid_box.maximum_temperature = 165
 entity.fluid_box.pipe_covers         = PIPE_COVERS_STEAM
 entity.fluid_box.pipe_connections    = {
     {
-        direction = 0,
+        direction = defines.direction.north,
         position = { 0, 0 },
         connection_category = "steam",
     },
     {
         connection_type = "underground",
-        direction = 8,
+        direction = defines.direction.south,
         position = { 0, 0 },
         connection_category = "steam",
         max_underground_distance = 10,
