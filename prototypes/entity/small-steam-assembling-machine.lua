@@ -73,7 +73,7 @@ data:extend({
         dying_explosion = "small-steam-assembling-machine-explosion",
         energy_source = {
             fluid_box = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
                 pipe_connections = {
                     {
@@ -118,7 +118,9 @@ data:extend({
             },
             type = "fluid"
         },
-        energy_usage = "62.5kW",
+
+        heating_energy = nil,
+        energy_usage = "150kW",
         entity_info_icon_shift = { 0, -0.425 },
         fast_replaceable_group = nil,
         flags = {

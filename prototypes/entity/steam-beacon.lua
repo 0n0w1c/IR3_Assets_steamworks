@@ -11,7 +11,6 @@ data:extend({
         drawing_box_vertical_extension                   = 1,
         graphics_set                                     = {
             module_icons_suppressed = false,
-
             animation_list = {
                 {
                     render_layer = "lower-object-above-shadow",
@@ -76,7 +75,7 @@ data:extend({
         energy_source                                    = {
             type                 = "fluid",
             fluid_box            = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
                 pipe_connections = {
                     {
@@ -105,7 +104,7 @@ data:extend({
                 color = { r = 0, g = 0, b = 0, a = 0
                 }
             },
-            emissions_per_minute = { pollution = 30 },
+            emissions_per_minute = { pollution = 10 },
             maximum_temperature  = 165,
             scale_fluid_usage    = true,
             smoke                = {

@@ -263,7 +263,7 @@ data:extend({
         dying_explosion = "steam-barrelling-machine-explosion",
 
         energy_source = { type = "void" },
-        energy_usage = "0.0625MW",
+        energy_usage = "30kW",
         fast_replaceable_group = "steam-barrelling-machine",
         flags = {
             "placeable-player",
@@ -273,7 +273,7 @@ data:extend({
 
         fluid_boxes = {
             {
-                volume = 200,
+                volume = 100,
                 production_type = "input",
                 pipe_covers = PIPE_COVERS_STEAM,
                 pipe_connections = {

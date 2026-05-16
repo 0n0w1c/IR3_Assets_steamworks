@@ -81,7 +81,7 @@ entity.dying_explosion                      = "steam-assembling-machine-explosio
 
 entity.energy_source                        = {
     fluid_box = {
-        volume = 200,
+        volume = 100,
         filter = "steam",
         pipe_connections = {
             {
@@ -228,6 +228,7 @@ entity.graphics_set                         = {
 }
 
 entity.energy_usage                         = "125kW"
+entity.heating_energy                       = nil
 
 entity.working_sound                        = {
     fade_in_ticks = 10,
@@ -243,7 +244,7 @@ entity.fluid_boxes                          = {
         production_type = "input",
         pipe_picture = PIPE_PICTURES_COPPER,
         pipe_covers = PIPE_COVERS_IRON,
-        volume = 200,
+        volume = 100,
         pipe_connections = {
             {
                 flow_direction = "input",
@@ -259,7 +260,7 @@ entity.fluid_boxes                          = {
         production_type = "output",
         pipe_picture = PIPE_PICTURES_COPPER,
         pipe_covers = PIPE_COVERS_IRON,
-        volume = 200,
+        volume = 100,
         pipe_connections = {
             {
                 flow_direction = "output",

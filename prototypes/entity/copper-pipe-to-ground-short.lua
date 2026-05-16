@@ -41,7 +41,7 @@ entity.factoriopedia_simulation      = {
 }
 
 entity.fast_replaceable_group        = "copper-pipe"
-
+entity.heating_energy                = nil
 entity.fluid_box.pipe_covers         = PIPE_COVERS_COPPER
 entity.fluid_box.filter              = "water"
 entity.fluid_box.minimum_temperature = 15

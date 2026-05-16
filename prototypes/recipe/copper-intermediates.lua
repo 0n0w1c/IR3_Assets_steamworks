@@ -156,7 +156,7 @@ data:extend({
             },
         },
         enabled = false,
-        energy_required = 2.5
+        energy_required = 2
     },
     {
         name = "large-copper-frame",
@@ -186,6 +186,6 @@ data:extend({
             },
         },
         enabled = false,
-        energy_required = 2.5
+        energy_required = 2
     },
 })

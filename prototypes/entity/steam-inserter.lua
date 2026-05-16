@@ -77,7 +77,7 @@ data:extend({
         energy_per_rotation = "10kJ",
         energy_source = {
             fluid_box = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
                 height = 2,
                 pipe_connections = {

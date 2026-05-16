@@ -305,7 +305,7 @@ data:extend({
             type                 = "fluid",
 
             fluid_box            = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
 
                 pipe_connections = {

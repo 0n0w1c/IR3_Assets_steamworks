@@ -103,9 +103,10 @@ data:extend({
             }
         },
         dying_explosion           = "steam-crusher-explosion",
+        heating_energy            = nil,
         energy_source             = {
             fluid_box = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
                 pipe_connections = {
                     {

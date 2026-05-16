@@ -55,7 +55,7 @@ data:extend({
         dying_explosion = "steam-lab-explosion",
         energy_source = {
             fluid_box = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
                 pipe_connections = {
                     {
@@ -94,7 +94,7 @@ data:extend({
             scale_fluid_usage = true,
             type = "fluid"
         },
-        energy_usage = "125kW",
+        energy_usage = "60kW",
         fast_replaceable_group = nil,
         flags = {
             "placeable-player",

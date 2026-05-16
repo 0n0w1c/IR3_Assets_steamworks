@@ -41,6 +41,7 @@ entity.factoriopedia_simulation      = {
 }
 
 entity.fast_replaceable_group        = "steam-pipe"
+entity.heating_energy                = nil
 entity.fluid_box.filter              = "steam"
 entity.fluid_box.minimum_temperature = 165
 entity.fluid_box.maximum_temperature = 165

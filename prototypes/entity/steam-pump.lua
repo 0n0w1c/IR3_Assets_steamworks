@@ -76,8 +76,9 @@ entity.fluid_wagon_connector_graphics            = nil
 entity.glass_pictures                            = nil
 entity.fluid_animation                           = nil
 
+entity.heating_energy                            = nil
 entity.energy_source                             = { type = "void" }
-entity.energy_usage                              = "29kW"
+entity.energy_usage                              = "30kW"
 entity.pumping_speed                             = 20
 
 entity.animations                                = {

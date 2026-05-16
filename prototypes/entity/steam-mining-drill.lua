@@ -82,11 +82,11 @@ data:extend({
 
         energy_source                = {
             type                 = "fluid",
-            emissions_per_minute = { pollution = 1 },
+            emissions_per_minute = { pollution = 10 },
             maximum_temperature  = 165,
             scale_fluid_usage    = true,
             fluid_box            = {
-                volume               = 200,
+                volume               = 100,
                 filter               = "steam",
                 maximum_temperature  = 165,
                 pipe_connections     = {
@@ -411,12 +411,12 @@ data:extend({
             }
         },
 
-        max_health                   = 1250,
+        max_health                   = 250,
         minable                      = {
             mining_time = 0.2,
             result = "steam-mining-drill"
         },
-        mining_speed                 = 1.25,
+        mining_speed                 = 1,
 
         monitor_visualization_tint   = { r = 78, g = 173, b = 255, a = 255 },
 

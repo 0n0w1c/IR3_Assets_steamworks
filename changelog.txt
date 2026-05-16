@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 16.05.2026
+  Bugfixes:
+    - Long handed steam inserter entity incorrectly assigned the steam inserter sprite
+    - Reduced the fluid box volume for several steam and copper entities (200 to 100)
+    - Removed heating energy from entities (freezing mechanic is not supported)
+  Changes:
+    - Balancing: Reduced the steam mining drill's health (1250 to 250) and mining speed (1.25 to 1)
+---------------------------------------------------------------------------------------------------
 Version: 0.5.2
 Date: 08.05.2026
   Bugfixes:

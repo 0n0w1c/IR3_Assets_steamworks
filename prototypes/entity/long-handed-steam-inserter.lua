@@ -82,7 +82,7 @@ data:extend({
         energy_per_rotation = "15kJ",
         energy_source = {
             fluid_box = {
-                volume = 200,
+                volume = 100,
                 filter = "steam",
                 height = 2,
                 pipe_connections = {
@@ -165,7 +165,7 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam-inserter.png",
+                icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/long-handed-steam-inserter.png",
                 icon_mipmaps = 4,
                 icon_size = 64
             },

@@ -57,7 +57,7 @@ data:extend({
             }
         },
         dying_explosion           = "copper-boiler-explosion",
-        energy_consumption        = "0.9MW",
+        energy_consumption        = "900kW",
         energy_source             = {
             type = "burner",
             effectivity = 1,

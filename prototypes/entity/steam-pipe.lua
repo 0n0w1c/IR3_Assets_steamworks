@@ -30,6 +30,7 @@ entity.damaged_trigger_effect         = {
     }
 }
 
+entity.heating_energy                 = nil
 entity.fast_replaceable_group         = "steam-pipe"
 entity.fluid_box.filter               = "steam"
 entity.fluid_box.minimum_temperature  = 165
