@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 09.06.2026
+  Bugfixes:
+    - None
+  Changes:
+    - Added support for IR3 Assets:mining drills (recipe for burner mining drills uses copper)
+---------------------------------------------------------------------------------------------------
 Version: 0.5.3
 Date: 16.05.2026
   Bugfixes:

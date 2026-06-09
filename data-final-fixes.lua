@@ -27,3 +27,22 @@ if lab then
         end
     end
 end
+
+local recipes = data.raw["recipe"]
+local recipe = {}
+
+if mods["IR3_Assets_mining_drills"] then
+    recipe = recipes["burner-mining-drill"]
+    if recipe then
+        recipe.ingredients = {
+            { type = "item", name = "copper-plate",      amount = 3, },
+            { type = "item", name = "copper-gear-wheel", amount = 3, },
+            { type = "item", name = "stone-furnace",     amount = 1, },
+        }
+    end
+
+    if mods["quality"] then
+        local recycling = require("__quality__/prototypes/recycling")
+        recycling.generate_recycling_recipe(recipe)
+    end
+end
