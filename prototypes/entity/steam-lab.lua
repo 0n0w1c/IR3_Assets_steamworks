@@ -57,6 +57,8 @@ data:extend({
             fluid_box = {
                 volume = 100,
                 filter = "steam",
+                minimum_temperature = 165,
+                maximum_temperature = 165,
                 pipe_connections = {
                     {
                         direction = defines.direction.north,
@@ -95,7 +97,7 @@ data:extend({
             type = "fluid"
         },
         energy_usage = "60kW",
-        fast_replaceable_group = nil,
+        fast_replaceable_group = "steam-lab",
         flags = {
             "placeable-player",
             "placeable-neutral",

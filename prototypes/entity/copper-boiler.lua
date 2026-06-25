@@ -338,6 +338,8 @@ data:extend({
         output_fluid_box          = {
             volume = 200,
             filter = "steam",
+            minimum_temperature = 165,
+            maximum_temperature = 165,
             production_type = "output",
             pipe_covers = PIPE_COVERS_STEAM,
             pipe_connections = {

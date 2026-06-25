@@ -2,6 +2,7 @@ data:extend({
     {
         name                                             = "steam-beacon",
         type                                             = "beacon",
+        fast_replaceable_group                           = "steam-beacon",
         icon                                             = "__IR3_Assets_steamworks__/graphics/icons/steam-beacon.png",
         flags                                            = { "placeable-player", "player-creation" },
         minable                                          = { mining_time = 0.2, result = "steam-beacon" },
@@ -77,6 +78,8 @@ data:extend({
             fluid_box            = {
                 volume = 100,
                 filter = "steam",
+                minimum_temperature = 165,
+                maximum_temperature = 165,
                 pipe_connections = {
                     {
                         direction = defines.direction.east,

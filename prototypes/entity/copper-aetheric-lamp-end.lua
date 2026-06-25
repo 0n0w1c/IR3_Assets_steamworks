@@ -307,6 +307,8 @@ data:extend({
             fluid_box            = {
                 volume = 100,
                 filter = "steam",
+                minimum_temperature = 165,
+                maximum_temperature = 165,
 
                 pipe_connections = {
                     {

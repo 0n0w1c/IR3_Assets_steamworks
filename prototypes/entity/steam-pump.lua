@@ -66,7 +66,9 @@ entity.fluid_box                                 = {
         { direction = defines.direction.north, position = { 0, 0 }, flow_direction = "output", connection_category = "steam" },
         { direction = defines.direction.south, position = { 0, 0 }, flow_direction = "input",  connection_category = "steam" },
     },
-    filter               = "steam"
+    filter               = "steam",
+    minimum_temperature  = 165,
+    maximum_temperature  = 165
 }
 
 entity.fluid_wagon_connector_frame_count         = nil

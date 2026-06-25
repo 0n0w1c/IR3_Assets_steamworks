@@ -1,6 +1,7 @@
 local entity                                = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-2"])
 
 entity.name                                 = "steam-assembling-machine"
+entity.fast_replaceable_group               = entity.fast_replaceable_group or "steam-assembling-machine"
 
 entity.icon                                 = "__IndustrialRevolution3Assets1__/graphics/icons/64/assembler1.png"
 
@@ -83,6 +84,8 @@ entity.energy_source                        = {
     fluid_box = {
         volume = 100,
         filter = "steam",
+        minimum_temperature = 165,
+        maximum_temperature = 165,
         pipe_connections = {
             {
                 direction = defines.direction.east,
@@ -230,8 +233,8 @@ entity.graphics_set                         = {
 entity.energy_usage                         = "125kW"
 entity.heating_energy                       = nil
 
-entity.use_mirroring = true
-entity.graphics_set_flipped = table.deepcopy(entity.graphics_set)
+entity.use_mirroring                        = true
+entity.graphics_set_flipped                 = table.deepcopy(entity.graphics_set)
 
 entity.working_sound                        = {
     fade_in_ticks = 10,

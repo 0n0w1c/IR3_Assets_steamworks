@@ -37,6 +37,7 @@ data:extend({
                 name = "steam",
                 amount = 100,
                 temperature = 165,
+                fluidbox_index = 1,
             }
         },
         subgroup = "steamworks-steam",

@@ -65,6 +65,8 @@ data:extend({
                 },
             },
             filter                = "steam",
+            minimum_temperature   = 165,
+            maximum_temperature   = 165,
             pipe_covers           = PIPE_COVERS_STEAM,
             secondary_draw_orders = { north = -1 },
         },

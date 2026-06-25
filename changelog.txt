@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.6.1
+Date: 25. 06. 2026
+  Bugfixes:
+    - Updated fluidbox filters for 2.1
+    - Added a migration to fast-replace existing steamworks entities
+  Changes:
+    - None
+---------------------------------------------------------------------------------------------------
 Version: 0.6.0
 Date: 25.06.2026
   Bugfixes:

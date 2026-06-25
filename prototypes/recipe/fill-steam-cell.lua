@@ -43,6 +43,7 @@ data:extend({
                 name = "steam",
                 amount = 100,
                 minimum_temperature = 165,
+                fluidbox_index = 1,
             }
         },
         order = "d[steam-pipe]-j[fill-steam-cell]",
