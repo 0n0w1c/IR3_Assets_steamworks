@@ -1,9 +1,9 @@
 require("inserter-util")
 
-data:extend({
-    {
+local entity = {
         type = "inserter",
         name = "steam-bulk-inserter",
+        use_mirroring = true,
 
         pickup_position = { 0, -1 },
         extension_speed = 0.1,
@@ -13,6 +13,7 @@ data:extend({
         bulk = true,
 
         circuit_connector = circuit_connector_definitions["steam-inserter"],
+        circuit_connector_flipped = circuit_connector_definitions["steam-inserter"],
         circuit_wire_max_distance = inserter_circuit_wire_max_distance,
         default_stack_control_input_signal = inserter_default_stack_control_input_signal,
 
@@ -396,5 +397,8 @@ data:extend({
                 audible_distance_modifier = 0.3,
             },
         },
-    }
-})
+}
+
+entity.platform_picture_flipped = table.deepcopy(entity.platform_picture)
+
+data:extend({ entity })

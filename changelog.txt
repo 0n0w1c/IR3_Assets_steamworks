@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.6.0
+Date: 25.06.2026
+  Bugfixes:
+    - None
+  Changes:
+    - Updated for 2.1
+    - zzz-nonstandard-beacons is an optional dependency (required for steam powered beacons)
+---------------------------------------------------------------------------------------------------
 Version: 0.5.4
 Date: 09.06.2026
   Bugfixes:

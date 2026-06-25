@@ -48,8 +48,8 @@ data:extend({
         },
 
         research_trigger = {
-            type   = "mine-entity",
-            entity = "copper-ore",
+            type     = "mine-entity",
+            entities = { "copper-ore" },
         },
 
         upgrade = false

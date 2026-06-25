@@ -9,8 +9,7 @@ if mods["crushing-industry"] then
     }
 end
 
-data:extend({
-    {
+local entity = {
         type                      = "assembling-machine",
         name                      = "steam-crusher",
 
@@ -258,5 +257,9 @@ data:extend({
                 volume = 0.5
             }
         }
-    }
-})
+}
+
+entity.use_mirroring = true
+entity.graphics_set_flipped = table.deepcopy(entity.graphics_set)
+
+data:extend({ entity })

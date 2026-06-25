@@ -69,7 +69,6 @@ data:extend({
             secondary_draw_orders = { north = -1 },
         },
         icon                      = "__IndustrialRevolution3Assets1__/graphics/icons/64/small-tank-steam.png",
-        icon_mipmaps              = 4,
         icon_size                 = 64,
         max_health                = 100,
         minable                   = { mining_time = 0.2, result = "small-storage-tank-steam" },

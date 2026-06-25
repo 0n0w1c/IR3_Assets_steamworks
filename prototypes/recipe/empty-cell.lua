@@ -2,9 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "empty-cell",
-
-        always_show_products = true,
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         ingredients = {
             {
@@ -25,6 +23,5 @@ data:extend({
                 amount = 1,
             },
         },
-        show_amount_in_title = false,
     }
 })

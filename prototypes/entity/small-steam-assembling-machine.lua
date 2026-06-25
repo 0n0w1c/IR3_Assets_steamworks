@@ -1,6 +1,6 @@
-data:extend({
-    {
+local entity = {
         type = "assembling-machine",
+        use_mirroring = true,
         name = "small-steam-assembling-machine",
 
         alert_icon_shift = { 0, 0 },
@@ -130,7 +130,6 @@ data:extend({
         },
         gui_title_key = "gui-title.crafting",
         icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/small-assembler-1.png",
-        icon_mipmaps = 4,
         icon_size = 64,
         ingredient_count = 1,
         match_animation_speed_to_activity = false,
@@ -188,5 +187,8 @@ data:extend({
                 volume = 0.5
             }
         }
-    }
-})
+}
+
+entity.graphics_set_flipped = table.deepcopy(entity.graphics_set)
+
+data:extend({ entity })

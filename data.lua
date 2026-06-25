@@ -267,7 +267,7 @@ require("prototypes/recipe/monowheel")
 
 require("prototypes/technology/steam-automation")
 
-if settings.startup["IR3-steamworks-enable-steam-beacon"].value then
+if mods["zzz-nonstandard-beacons"] and settings.startup["IR3-steamworks-enable-steam-beacon"].value then
     require("prototypes/explosion/steam-beacon")
     require("prototypes/entity/steam-beacon")
     require("prototypes/item/steam-beacon")

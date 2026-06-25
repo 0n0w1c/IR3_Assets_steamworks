@@ -1,9 +1,9 @@
 require("inserter-util")
 
-data:extend({
-    {
+local entity = {
         type = "inserter",
         name = "long-handed-steam-inserter",
+        use_mirroring = true,
 
         pickup_position = { 0, -2 },
         extension_speed = 0.05,
@@ -12,6 +12,7 @@ data:extend({
         starting_distance = 1.7,
 
         circuit_connector = circuit_connector_definitions["steam-inserter"],
+        circuit_connector_flipped = circuit_connector_definitions["steam-inserter"],
         circuit_wire_max_distance = inserter_circuit_wire_max_distance,
         default_stack_control_input_signal = inserter_default_stack_control_input_signal,
 
@@ -161,17 +162,14 @@ data:extend({
             width = 72
         },
         icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam-inserter.png",
-        icon_mipmaps = 4,
         icon_size = 64,
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/long-handed-steam-inserter.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -8, 8 }
@@ -362,5 +360,8 @@ data:extend({
                 }
             }
         }
-    }
-})
+}
+
+entity.platform_picture_flipped = table.deepcopy(entity.platform_picture)
+
+data:extend({ entity })

@@ -1,6 +1,6 @@
-data:extend({
-    {
+local entity = {
         type = "furnace",
+        use_mirroring = true,
         name = "steam-barrelling-machine",
 
         allowed_effects = {},
@@ -289,7 +289,6 @@ data:extend({
         },
 
         icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam-barrelling-machine.png",
-        icon_mipmaps = 4,
         icon_size = 64,
         match_animation_speed_to_activity = false,
         max_health = 225,
@@ -341,5 +340,8 @@ data:extend({
                 volume = 0.5
             }
         }
-    }
-})
+}
+
+entity.graphics_set_flipped = table.deepcopy(entity.graphics_set)
+
+data:extend({ entity })

@@ -2,9 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "steam-bulk-inserter",
-
-        always_show_products = true,
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         ingredients = {
             { type = "item", name = "copper-gear-wheel",    amount = 15, },
@@ -19,6 +17,5 @@ data:extend({
                 amount = 1,
             },
         },
-        show_amount_in_title = false,
     }
 })

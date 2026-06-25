@@ -16,14 +16,14 @@ if technology then
     technology.research_trigger = { type = "craft-item", item = "steam-lab" }
 end
 
-local tools = data.raw["tool"]
+local items = data.raw["item"] or {}
 local lab = data.raw["lab"]["steam-lab"]
 if lab then
     lab.inputs = {}
 
-    for _, tool in pairs(tools) do
-        if tool.subgroup == "science-pack" then
-            table.insert(lab.inputs, tool.name)
+    for _, item in pairs(items) do
+        if item.subgroup == "science-pack" then
+            table.insert(lab.inputs, item.name)
         end
     end
 end
@@ -41,8 +41,8 @@ if mods["IR3_Assets_mining_drills"] then
         }
     end
 
-    if mods["quality"] then
-        local recycling = require("__quality__/prototypes/recycling")
+    if mods["recycler"] and recipe then
+        local recycling = require("__recycler__.recycling")
         recycling.generate_recycling_recipe(recipe)
     end
 end

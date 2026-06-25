@@ -2,9 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "monowheel",
-
-        always_show_products = true,
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         energy_required = 2,
         ingredients = {
@@ -15,6 +13,5 @@ data:extend({
             { type = "item", name = "steam-pipe",                 amount = 4 }
         },
         results = { { type = "item", name = "monowheel", amount = 1 } },
-        show_amount_in_title = false,
     }
 })

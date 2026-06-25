@@ -2,9 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "long-handed-steam-inserter",
-
-        always_show_products = true,
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         ingredients = {
             { type = "item", name = "copper-rod",        amount = 1 },
@@ -18,6 +16,5 @@ data:extend({
                 amount = 1,
             },
         },
-        show_amount_in_title = false,
     }
 })

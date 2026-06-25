@@ -3,7 +3,7 @@ data:extend({
         type = "recipe",
         name = "copper-roboport-equipment",
 
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         energy_required = 10,
         ingredients = {
@@ -31,6 +31,5 @@ data:extend({
         results = {
             { type = "item", name = "copper-roboport-equipment", amount = 1 },
         },
-        show_amount_in_title = false,
     }
 })

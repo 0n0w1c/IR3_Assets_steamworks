@@ -74,19 +74,16 @@ data:extend({
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/long-handed-steam-inserter.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -8, 8 }
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/long-handed.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -8, 8 }

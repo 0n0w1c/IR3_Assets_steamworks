@@ -1,5 +1,4 @@
-data:extend({
-    {
+local entity = {
         type                         = "mining-drill",
         name                         = "steam-mining-drill",
 
@@ -399,12 +398,10 @@ data:extend({
         icons                        = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/burner-mining-drill.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -8.5, 8.5 }
@@ -437,6 +434,7 @@ data:extend({
             { 2.5,  2.5 }
         },
 
+        use_mirroring                = true,
         vector_to_place_result       = { 0, -2.85 },
 
         vehicle_impact_sound         = {
@@ -493,5 +491,8 @@ data:extend({
             fade_in_ticks = 10,
             fade_out_ticks = 30,
         }
-    }
-})
+}
+
+entity.graphics_set_flipped = table.deepcopy(entity.graphics_set)
+
+data:extend({ entity })

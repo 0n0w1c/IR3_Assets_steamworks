@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "small-storage-tank-steam",
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         energy_required = 2,
         ingredients = {
@@ -13,7 +13,5 @@ data:extend({
         results = {
             { type = "item", name = "small-storage-tank-steam", amount = 1 }
         },
-        always_show_products = true,
-        show_amount_in_title = false,
     }
 })

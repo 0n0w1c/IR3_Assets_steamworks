@@ -5,8 +5,7 @@ data:extend({
 
         allow_decomposition = false,
         always_show_made_in = true,
-        always_show_products = true,
-        category = "crafting",
+        categories = { "crafting" },
         crafting_machine_tint = {
             tertiary = { a = 1, b = 1, g = 1, r = 1 }
         },
@@ -14,7 +13,6 @@ data:extend({
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steambot.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             }
         },
@@ -42,6 +40,5 @@ data:extend({
                 amount = 1,
             },
         },
-        show_amount_in_title = false,
     }
 })

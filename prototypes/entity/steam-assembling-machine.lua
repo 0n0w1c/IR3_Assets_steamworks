@@ -230,6 +230,9 @@ entity.graphics_set                         = {
 entity.energy_usage                         = "125kW"
 entity.heating_energy                       = nil
 
+entity.use_mirroring = true
+entity.graphics_set_flipped = table.deepcopy(entity.graphics_set)
+
 entity.working_sound                        = {
     fade_in_ticks = 10,
     fade_out_ticks = 30,

@@ -6,9 +6,8 @@ data:extend({
         auto_recycle = false,
         allow_decomposition = false,
         always_show_made_in = true,
-        always_show_products = true,
         hide_from_player_crafting = true,
-        category = "steam-barrelling",
+        categories = { "steam-barrelling" },
         crafting_machine_tint = {
             tertiary = { r = 1, g = 1, b = 1, a = 1 }
         },
@@ -17,12 +16,10 @@ data:extend({
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam-cell.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -7, -7 },
@@ -30,7 +27,6 @@ data:extend({
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -8.5, -8.5 }
@@ -57,7 +53,6 @@ data:extend({
                 amount = 1,
             }
         },
-        show_amount_in_title = false,
         subgroup = "steamworks-steam",
     }
 })

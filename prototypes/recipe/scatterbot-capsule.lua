@@ -3,7 +3,7 @@ data:extend({
         type = "recipe",
         name = "scatterbot-capsule",
 
-        category = "crafting",
+        categories = { "crafting" },
         enabled = false,
         energy_required = 8,
         ingredients = {

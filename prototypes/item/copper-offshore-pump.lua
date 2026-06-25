@@ -12,7 +12,6 @@ data:extend({
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-pump.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             }
         },

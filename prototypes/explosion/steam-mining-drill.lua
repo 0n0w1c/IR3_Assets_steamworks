@@ -93,12 +93,10 @@ data:extend({
         icons = {
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/burner-mining-drill.png",
-                icon_mipmaps = 4,
                 icon_size = 64
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -7, 10 },
@@ -106,7 +104,6 @@ data:extend({
             },
             {
                 icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/steam.png",
-                icon_mipmaps = 4,
                 icon_size = 64,
                 scale = 0.25,
                 shift = { -8.5, 8.5 }

@@ -106,7 +106,7 @@ data:extend({
         effectivity = 1.0,
         deliver_category = "vehicle",
         consumption = "400kW",
-        braking_power = "300kW",
+        braking_force = 5000,
         rotation_speed = 0.007,
         tank_driving = true,
         max_health = 500,
@@ -119,7 +119,7 @@ data:extend({
         immune_to_rock_impacts = true,
         immune_to_cliff_impacts = true,
         allow_remote_driving = true,
-        friction = 0.015,
+        friction_force = 0.015,
         energy_source =
         {
             type = "burner",

@@ -29,7 +29,6 @@ entity.selection_box                             = {
 entity.icons                                     = {
     {
         icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/copper-valve.png",
-        icon_mipmaps = 4,
         icon_size = 64
     }
 }
