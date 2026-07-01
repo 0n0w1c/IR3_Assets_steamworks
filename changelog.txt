@@ -6,6 +6,7 @@ Date: 30.06.2026
   Changes:
     - Removed the startup setting to enable/disable the steam beacon
     - Removed Nonstandard Beacons as an optional dependency
+    - Added a migration for existing steam beacons
 ---------------------------------------------------------------------------------------------------
 Version: 0.6.1
 Date: 25.06.2026
