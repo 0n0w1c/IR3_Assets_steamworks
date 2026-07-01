@@ -19,6 +19,6 @@ If the IR3 Assets are not installed, this mod will do nothing.
 
 This mod does **not** include IR3 or the assets.
 
-Credits:
+*Credits:*
 Steam beacon graphics from [Classic Beacon](https://mods.factorio.com/mod/classic-beacon) (MIT) by Kirazy
 Steam beacon code from [Nonstandard Beacons](https://mods.factorio.com/mod/zzz-nonstandard-beacons) (MIT) by protocol_1903
