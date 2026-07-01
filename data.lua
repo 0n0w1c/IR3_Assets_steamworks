@@ -267,10 +267,8 @@ require("prototypes/recipe/monowheel")
 
 require("prototypes/technology/steam-automation")
 
-if mods["zzz-nonstandard-beacons"] and settings.startup["IR3-steamworks-enable-steam-beacon"].value then
-    require("prototypes/explosion/steam-beacon")
-    require("prototypes/entity/steam-beacon")
-    require("prototypes/item/steam-beacon")
-    require("prototypes/recipe/steam-beacon")
-    table.insert(data.raw["technology"]["steam-automation"].effects, { type = "unlock-recipe", recipe = "steam-beacon" })
-end
+require("prototypes/explosion/steam-beacon")
+require("prototypes/entity/steam-beacon")
+require("prototypes/entity/steam-beacon-source")
+require("prototypes/item/steam-beacon")
+require("prototypes/recipe/steam-beacon")

@@ -1,24 +1,24 @@
 # IR3 Assets: steamworks
 
-Adds steamworks using IR3 graphical assets, if installed.  
+Adds steamworks using IR3 graphical assets, if installed.
 
 *Requires the manual installation of the Industrial Revolution 3 Asset Packs.*
 
 Created by **Deadlock989**, licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-Due to the licensing restrictions, the IR3 Assets can not be repackaged for Factorio 2.0/2.1.  
-However, users have full permissions to make the necessary modifications themselves.  
-For licensing concerns: [FAQ](https://mods.factorio.com/mod/IR3_Assets_assembling_machines/faq)  
+Due to the licensing restrictions, the IR3 Assets can not be repackaged for Factorio 2.0/2.1.
+However, users have full permissions to make the necessary modifications themselves.
+For licensing concerns: [FAQ](https://mods.factorio.com/mod/IR3_Assets_assembling_machines/faq)
 
-See the mod [IR3 Assets: Some assembly required](https://mods.factorio.com/mod/IR3_Assets_some_assembly_required)  
+See the mod [IR3 Assets: Some assembly required](https://mods.factorio.com/mod/IR3_Assets_some_assembly_required)
 
-*Startup setting to enable steam beacon* (default: disabled)  
 
-If the IR3 Assets are not installed, this mod will do nothing.  
+If the IR3 Assets are not installed, this mod will do nothing.
 
-*While driving the monowheel: [Space] to snap direction, [Backspace] when stuck*  
+*While driving the monowheel: [Space] to snap direction, [Backspace] when stuck*
 
-This mod does **not** include IR3 or the assets.  
+This mod does **not** include IR3 or the assets.
 
 Credits:
-Steam beacon graphics from [Classic Beacon](https://mods.factorio.com/mod/classic-beacon) (MIT) by Kirazy  
+Steam beacon graphics from [Classic Beacon](https://mods.factorio.com/mod/classic-beacon) (MIT) by Kirazy
+Steam beacon code from [Nonstandard Beacons](https://mods.factorio.com/mod/zzz-nonstandard-beacons) (MIT) by protocol_1903

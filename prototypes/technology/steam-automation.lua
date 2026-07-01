@@ -38,6 +38,7 @@ data:extend({
             { type = "unlock-recipe", recipe = "steam-crusher" },
             { type = "unlock-recipe", recipe = "steam-lab" },
             { type = "unlock-recipe", recipe = "monowheel" },
+            { type = "unlock-recipe", recipe = "steam-beacon" },
         },
 
         icons = {

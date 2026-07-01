@@ -1,6 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.7.0
+Date: 30.06.2026
+  Bugfixes:
+    - None
+  Changes:
+    - Removed the startup setting to enable/disable the steam beacon
+    - Removed Nonstandard Beacons as an optional dependency
+---------------------------------------------------------------------------------------------------
 Version: 0.6.1
-Date: 25. 06. 2026
+Date: 25.06.2026
   Bugfixes:
     - Updated fluidbox filters for 2.1
     - Added a migration for existing steamworks entities
